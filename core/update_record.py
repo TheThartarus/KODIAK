@@ -1,6 +1,6 @@
-import csv
-import os
 from tkinter import messagebox
+import os
+import csv
 
 def update_record(self):
     """

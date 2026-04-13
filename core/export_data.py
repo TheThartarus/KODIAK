@@ -1,8 +1,8 @@
-import csv
-import os
 from tkinter import messagebox, filedialog
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
+import os
+import csv
 
 def export_data(self):
     """

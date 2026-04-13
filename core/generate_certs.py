@@ -1,7 +1,7 @@
+from tkinter import messagebox
 import os
 import zipfile
 import shutil
-from tkinter import messagebox
 
 def generate_certs(self):
     """

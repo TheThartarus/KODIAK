@@ -1,10 +1,10 @@
 from tkinter import messagebox
-import os
-import csv
-import zipfile
-import shutil
 from pathlib import Path
 from datetime import datetime
+import os
+import shutil
+import zipfile
+import csv
 
 def save_record(self):
     """

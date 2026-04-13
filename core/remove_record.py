@@ -1,7 +1,7 @@
-import csv
+from tkinter import messagebox
 import os
 import shutil
-from tkinter import messagebox
+import csv
 
 def remove_record(self):
     """

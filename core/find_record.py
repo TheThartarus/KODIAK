@@ -1,7 +1,7 @@
-import tkinter as tk
 from tkinter import messagebox
-import csv
+import tkinter as tk
 import os
+import csv
 
 def find_record(self):
     """

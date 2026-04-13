@@ -1,17 +1,17 @@
+from tkinter import messagebox, ttk
+from pathlib import Path
 import tkinter as tk
-from tkinter import ttk
 import os
 import csv
-from pathlib import Path
 
-from core.save_record import *
-from core.find_record import *
-from core.remove_record import *
-from core.generate_certs import *
-from core.export_data import *
-from core.update_record import *
-from core.show_stats import *
-from core.show_about import *
+from core.save_record import save_record
+from core.find_record import find_record
+from core.remove_record import remove_record
+from core.generate_certs import generate_certs
+from core.export_data import export_data
+from core.update_record import update_record
+from core.show_stats import show_stats
+from core.show_about import show_about
 
 class KodiakApp:
     def __init__(self, root):
