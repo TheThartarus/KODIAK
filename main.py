@@ -41,6 +41,9 @@ class KodiakApp:
 
     def clear_entries(self):
         """Borra todos los campos de entrada después de guardar."""
+        # Reiniciar el ID buscado para evitar confusiones
+        self.id_found = None
+
         self.entry_full_name.delete(
             0,
             tk.END,
