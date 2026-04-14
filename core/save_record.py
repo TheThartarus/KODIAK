@@ -86,10 +86,10 @@ def save_record(self):
                 self.zip_source,
                 'r',
             ) as z:
-                # Extraer la planillaa de asistencia
-                with z.open("ASISTENCIA.xlsx") as source, \
+                # Extraer la planilla de asistencia
+                with z.open("ASISTENCIA.docx") as source, \
                      open(
-                         target_path / "ASISTENCIA.xlsx",
+                         target_path / "ASISTENCIA.docx",
                          "wb",
                     ) as target:
                         shutil.copyfileobj(
