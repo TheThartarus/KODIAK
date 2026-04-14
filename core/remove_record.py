@@ -45,8 +45,8 @@ def remove_record(self):
             reader = csv.DictReader(f)
             for row in reader:
                 # Si coincide, se marca para no incluirlo en la lista nueva
-                if search_term == (row["FULL NAME"] or
-                                   search_term == row["ID NUMBER"]):
+                if (search_term == row["FULL NAME"] or
+                    search_term == row["ID NUMBER"]):
                     found = True
                     target_folder_name = (f"{row['ID NUMBER']} - "
                                           f"{row['FULL NAME']}")
