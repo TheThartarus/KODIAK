@@ -37,7 +37,7 @@ def show_about(self, parent):
     # Descripción y Versión
     tk.Label(
         about_win, 
-        text="Versión 1.0.3\nSistema de Gestión de Labores Sociales",
+        text="Versión 1.1.3\nSistema de Gestión de Labores Sociales",
         font=(
             "Helvetica",
             10,
