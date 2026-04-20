@@ -131,15 +131,9 @@ def generate_certs(self):
 
                 # Verificar que los archivos existan en el ZIP
                 for model in models:
-                    with z.open(model) as source, \
-                         open(
-                             target_path / model,
-                             "wb",
-                         ) as target:
-                        # Copiar el contenido del archivo del ZIP al destino
-                        shutil.copyfileobj(
-                            source,
-                            target,
+                        z.extract(
+                            model,
+                            target_path
                         )
 
                         try:
